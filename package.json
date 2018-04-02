@@ -1,0 +1,28 @@
+{
+  "name": "truffle-ledger-wallet-provider",
+  "version": "1.0.0",
+  "description": "Truffle Leder Wallet Web3 provider",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib/"
+  },
+  "keywords": [
+    "ethereum",
+    "wallet",
+    "ledger",
+    "provider"
+  ],
+  "author": "Dicether",
+  "license": "MIT",
+  "dependencies": {
+    "@0xproject/subproviders": "^0.8.2",
+    "@ledgerhq/hw-app-eth": "^4.7.3",
+    "@ledgerhq/hw-transport-node-hid": "^4.7.6",
+    "web3": "^0.20.0",
+    "web3-provider-engine": "^13.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
+}
